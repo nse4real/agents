@@ -1,0 +1,19 @@
+# Secrets: keys go in the host's environment settings, never in the repo
+.env
+
+# Files the twin writes while running (visitor emails, questions and chat logs)
+emails.txt
+unknown_questions.jsonl
+turn_log.jsonl
+twin.db
+eval/
+
+# Notebook evaluation output, not needed to run the app
+results.json
+
+__pycache__/
+.gradio/
+# Personal files: never commit
+linkedin.pdf
+summary.txt
+summary.pdf
